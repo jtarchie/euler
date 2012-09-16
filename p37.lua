@@ -13,7 +13,7 @@ function is_prime(number)
 end
 
 function from_all(num)
-  s = string.format("%d", num)
+  s = tostring(num)
 
   list = { }
   for i = 1, string.len(s), 1 do
